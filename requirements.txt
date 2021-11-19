@@ -1,0 +1,7 @@
+aiohttp
+aioredis
+loguru
+httpx
+faker
+pandas
+environs

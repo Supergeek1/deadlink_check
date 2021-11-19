@@ -1,0 +1,4 @@
+*.csv
+.idea
+__pychace__
+.venv
