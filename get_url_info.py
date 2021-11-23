@@ -76,12 +76,7 @@ class GetUrlInfo:
 
 
 if __name__ == '__main__':
-    pubcodes = [
-        # 'forum_tieba_baiducn',
-        # 'wm_thecovercn',
-        'wm_chinanewscn',
-        # 'wm_secutimescn'
-    ]
+    pubcodes = []
 
     deadlink = GetUrlInfo()
     url_lists = deadlink.pubcodes_processing(pubcodes)
