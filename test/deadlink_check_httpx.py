@@ -144,7 +144,7 @@ class DeadlinkProcessing:
 
 
 if __name__ == '__main__':
-    pubcodes = ['wm_chinanewscn']
+    pubcodes = ['']
     url = GetUrlInfo()
     data = url.pubcodes_processing(pubcodes)
     logger.info(f'共{len(data)}个 pubcode')
