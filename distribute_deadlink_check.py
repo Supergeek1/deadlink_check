@@ -163,7 +163,7 @@ def start(pid):
 
 
 if __name__ == '__main__':
-    # pubcodes = ['forum_doubancn']
+    # pubcodes = ['']
     url = GetUrlInfo()
     data = url.pubcodes_processing(pubcodes)
     url.write_url_info_to_redis(data)
